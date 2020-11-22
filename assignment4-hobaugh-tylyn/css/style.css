@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(red, yellow);
+  background-size: cover;
+  height: 100%;
+  overflow: auto;
+}
+
+header {
+  background: white;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+}
+
+header li {
+  display: inline;
+  text-decoration: underline;
+}
+
+.custom-text {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  color: white;
+  background: grey;
+  padding: 10px 30px;
+  transition: 1s;
+}
+
+nav a:hover {
+  background: red;
+  transition: 1s;
+}
+
+h1,h2 {
+  background: black;
+  color: white;
+  text-align: center;
+  letter-spacing: .1em;
+}
+
+h1 {
+  font-size: 50px;
+  padding: 60px 0;
+}
+
+p {
+  text-align: left;
+  margin-top: 120px;
+}
+
+section {
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px 0px;
+}
+
+ul {
+  line-height: 2.0em;
+  letter-spacing: .1em;
+  word-spacing: .1em;
+  list-style-type: none;
+}
+
+.band {
+  width: 400px;
+  margin-right: 10px;
+  margin-top: 25px;
+  padding: 10px 0;
+  float: right;
+}
+
+.top-section {
+  background: rgb(220,220,220);
+  width: 800px;
+  height: 600px;
+  max-width: 900px;
+  min-width: 500px;
+  margin: 20px 250px;
+  padding: 30px 30px;
+}
+
+.dates {
+  position: absolute;
+  left: 535px;
+  top: 850px;
+}
+
+.bottom-section {
+  background: rgb(220,220,220);
+  width: 800px;
+  height: 400px;
+  max-width: 900px;
+  min-width: 500px;
+  margin: 20px 250px;
+  padding: 80px 30px;
+  text-align: center;
+}
+
+.note {
+  width: 100px;
+  position: relative;
+  top: 50%;
+  left: 0px;
+  animation: move 20s forwards infinite linear;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(1000px);
+  }
+}
