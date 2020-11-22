@@ -10,7 +10,7 @@ If you are going to have an image inside of the `<top-section>` your HTML should
 }
 ```
 
-###Troubleshooting
+### Troubleshooting
 If your webpage is not scrolling, make sure inside of the `<body>` your CSS should look like this:
 ``` css
 body {
